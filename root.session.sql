@@ -1,1 +1,1 @@
-DESCRIBE employee;
+use iti;
