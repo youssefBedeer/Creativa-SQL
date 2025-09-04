@@ -1,0 +1,1 @@
+DESCRIBE students;
