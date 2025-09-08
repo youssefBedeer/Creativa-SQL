@@ -1,1 +1,1 @@
-use iti;
+show databases;
