@@ -17,7 +17,11 @@ FROM orders ORDER BY price DESC LIMIT 3;
 SELECT product, SUM(quantity) FROM orders GROUP BY product;
 
 -- 6.Find the average price of products sold in giza 
-SELECT product, AVG(price) FROM orders WHERE city = "Giza" GROUP BY product;
+SELECT 
+    AVG(price) AS avg
+FROM 
+    orders 
+WHERE city = "Giza";
 
 -- 7.Get the highest quantity ordered in cairo 
 SELECT product, quantity FROM orders WHERE city = "Cairo" ORDER BY quantity DESC LIMIT 1;
